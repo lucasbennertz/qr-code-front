@@ -1,12 +1,29 @@
 
+$margem-padrao: 2dvw;
+
 .header{
   background-color: #0b3d6e;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 3dvh 9dvw;
   height: 10dvh;
   h1{
-    margin-left: 2dvw;
+    margin-left: $margem-padrao;
     font-size: 4dvh;
+  }
+  .links{
+    margin-right: $margem-padrao;
+    a{
+      color: white;
+      text-decoration: none;
+      margin-left: $margem-padrao;
+      font-size: 2.5dvh;
+      &:hover{
+        font-size: 3dvh;
+        transition: 0.3s;
+      }
+    }
   }
 }

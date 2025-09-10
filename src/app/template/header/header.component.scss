@@ -1,28 +1,32 @@
 
 $margem-padrao: 2dvw;
+$fonte-texto: "Arial", sans-serif;
 
 .header{
-  background-color: #0b3d6e;
-  color: white;
+  font-family: $fonte-texto;
+  background-color: #d9d9d9;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3dvh 9dvw;
   height: 10dvh;
-  h1{
-    margin-left: $margem-padrao;
-    font-size: 4dvh;
+  img{
+    height: 8dvh;
   }
   .links{
     margin-right: $margem-padrao;
     a{
-      color: white;
       text-decoration: none;
       margin-left: $margem-padrao;
       font-size: 2.5dvh;
       &:hover{
-        font-size: 3dvh;
+        font-size: 2.6dvh;
         transition: 0.3s;
+      }
+      &#sign-button{
+        border: solid black 0.2dvh;
+        padding: 1.2dvh 1.5dvw;
       }
     }
   }

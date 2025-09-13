@@ -1,3 +1,5 @@
+$width_tela_celular: 728px;
+
 .hero{
     background-color: white;
     height: 90dvh;
@@ -14,4 +16,24 @@
         font-size: 6dvw;
         text-shadow: 1.2dvh 1.6dvh 3dvh rgb(41, 41, 41);
     }
+}
+@media screen and (max-width: $width_tela_celular){
+    .hero{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding: 5dvh 5dvw;
+        #cerebro_hero{
+            width: 80dvw;
+            height: auto;
+            margin: 0;
+            margin-bottom: 5dvh;
+        }
+        #text_hero{
+            font-size: 6dvw;
+            text-shadow: 1.2dvh 1.6dvh 3dvh rgb(41, 41, 41);
+        }
+    }
+
 }

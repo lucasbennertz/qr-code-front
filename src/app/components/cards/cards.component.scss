@@ -2,9 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80dvh;
-    padding: 2dvh 4dvw;
+    height: 90dvh;
+    padding: 2dvh 2dvw;
     h2{
         font-size: 6dvh;
+    }
+    .cards{
+        padding: 8dvh 4dvw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80dvw;
     }
 }

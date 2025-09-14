@@ -1,11 +1,11 @@
 
 $margem-padrao: 2dvw;
 $fonte-texto: "Arial", sans-serif;
-
+$cor-de-fundo: #d9d9d9;
 
 .header{
   font-family: $fonte-texto;
-  background-color: #d9d9d9;
+  background-color: $cor-de-fundo;
   color: black;
   display: flex;
   align-items: center;

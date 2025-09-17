@@ -1,7 +1,9 @@
-@import "tailwindcss";
-
 $fonte-principal: 'Roboto', sans-serif, arial;
 
-body{
+*{
   font-family: $fonte-principal;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

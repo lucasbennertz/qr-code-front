@@ -11,17 +11,17 @@ $cor-de-fundo: #d9d9d9;
     flex-direction: column;
     .card-image{
         width: 4dvw;
-        height: 4dvh;
+        height: 4.7dvh;
         border-radius: 18%;
     }
     .card-title{
-        font-size: 1.5rem;
+        font-size: 4dvh;
         margin: 1rem 0 0.5rem 0;
         color: #333333;
         font-weight: bold;
     }
     .card-description{
-        font-size: 1rem;
+        font-size: 2.5dvh;
         color: #666666;
     }
     &:hover{

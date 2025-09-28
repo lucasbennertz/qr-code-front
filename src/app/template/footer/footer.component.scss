@@ -1,9 +1,9 @@
 $cor-de-fundo: #d9d9d9;
-$fonte-texto: "Arial", sans-serif;
+
 
 .footer{
     background-color: $cor-de-fundo;
-    font-family: $fonte-texto;
+    font-family: arial, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,9 +13,18 @@ $fonte-texto: "Arial", sans-serif;
         flex-direction: column;
         align-items: start;
         width: 20dvw;
-        font-size: 2.6dvh;
+        font-size: 3dvh;
         img{
-            height: 8dvh;
-        }        
+            height: 10dvh;
+        }    
+        #redes_sociais{
+            display: flex;
+            gap: 2dvw;
+            margin-top: 1dvh;
+            img{
+                height: 4dvh;
+                transition: all 0.3s ease;
+            }
+        }    
     }
 }

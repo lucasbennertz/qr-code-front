@@ -7,7 +7,8 @@ $cor-de-fundo: #d9d9d9;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2dvh 4dvw;
+    padding: 3dvh 4dvw;
+    height: 35dvh;
     #coluna_1{
         display: flex;
         flex-direction: column;
@@ -16,7 +17,11 @@ $cor-de-fundo: #d9d9d9;
         font-size: 3dvh;
         img{
             height: 10dvh;
+            margin-bottom: 1dvh;
         }    
+        p{
+            margin-bottom: 1dvh;
+        }
         #redes_sociais{
             display: flex;
             gap: 2dvw;
@@ -26,5 +31,12 @@ $cor-de-fundo: #d9d9d9;
                 transition: all 0.3s ease;
             }
         }    
+    }
+    #coluna_2{
+        font-size: 2dvh;
+        color: #555555;
+        height: 90%;
+        display: flex;
+        align-items: end;
     }
 }

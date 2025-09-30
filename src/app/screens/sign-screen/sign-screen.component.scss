@@ -1,0 +1,56 @@
+.sign-screen{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #sign-box{
+        width: 25dvw;
+        height: 70dvh;
+        box-shadow: 3px 5px 30px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3dvh 2dvw;
+        h2{
+            margin-bottom: 5dvh;
+        }
+        #login-form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 5dvh;
+            .login-identificacao{
+                margin-bottom: 1dvh;
+                font-size: 1rem;
+            }
+            .sign-inputs{
+                height: 5dvh;
+                border: 1px solid rgba(0,0,0,0.2);
+                border-radius: 5px;
+                padding: 0 1dvw;
+                font-size: 1rem;
+                margin-bottom: 2dvh;
+                &:focus{
+                    outline: none;
+                    border: 1px solid rgba(0,0,0,0.5);
+                    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                }
+            }
+        }
+        #submit-button{
+            width: 100%;
+            height: 5dvh;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover{
+                background-color: #1565c0;
+            }
+        }
+    }
+}
